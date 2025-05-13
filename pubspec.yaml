@@ -1,0 +1,28 @@
+name: az_intima_flutter
+description: Aplicación de gestión para AZ Íntima.
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  path_provider: ^2.1.5
+  sqflite: ^2.4.2
+
+  # Aquí puedes añadir paquetes como:
+  # shared_preferences: ^2.2.0
+  # sqflite: ^2.3.0
+  # provider: ^6.0.5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
